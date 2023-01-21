@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Buoi 1</title>
+</head>
+<body>
+    <!-- Bài tập 1 -->
+    <div style="width: 80%; margin: auto;">
+        <h1>Bài tập 1: Tính tiền lương</h1>
+        <p>Lương một ngày: 100,000</p>
+        <p>Số ngày làm:</p>
+        <input id="soNgayLam" style="width:100px">
+        <br>
+        <button style="margin-top: 3px;" onclick="tinhTienLuong()">Tính tiền lương </button> 
+        <span id="tienLuong"></span>
+    </div>
+    <br>
+    <br>
+    <!-- Bài tập 2 -->
+    <div style="width: 80%; margin: auto;">
+        <h1>Bài tập 2: Tính giá trị trung bình</h1>
+        <p>Số thứ nhất: <input id="soThuNhat" style="width: 50px;"></p>
+        <p>Số thứ hai: <input id="soThuHai" style="width: 50px;"></p>
+        <p>Số thứ ba: <input id="soThuBa" style="width: 50px;"></p>
+        <p>Số thứ tư: <input id="soThuTu" style="width: 50px;"></p>
+        <p>Số thứ năm: <input id="soThuNam" style="width: 50px;"></p>
+        <button onclick="tinhDiemTrungBinh()">Kết quả</button> <span id="trungBinh"></span>
+    </div>
+    <br>
+    <br>
+    <!-- Bài tập 3 -->
+    <div style="width: 80%; margin: auto;">
+        <h1>Bài tập 3: Quy đổi tiền</h1>
+        <p>1 USD = 23,500 VND</p>
+        <p>Nhập số tiền USD: <input id="soUsd" style="width: 70px;"></p>
+        <button onclick="quyDoiTien()">Quy đổi sang VND</button>
+        <span id="soVnd"></span> VND
+    </div>
+    <br>
+    <br>
+    <!-- Bài tập 4: -->
+    <div style="width: 80%; margin: auto;">
+        <h1>Bài tập 4: Tính diện tích, chu vi của hình chữ nhật</h1>
+        <p>Chiều dài: <input id="chieuDai" style="width: 50px;"></p>
+        <p>Chiều rộng: <input id="chieuRong" style="width: 50px;"></p>
+        <button onclick="tinhDienTich()" style="margin-bottom: 5px;">Tính diện tích</button> <span id="dienTich"></span>
+        <br>
+        <button onclick="tinhChuVi()">Tính chu vi</button> <span id="chuVi"></span>
+    </div>
+    <br>
+    <br>
+    <!-- Bài tập 5 -->
+    <div style="width: 80%; margin: auto;">
+        <h1>Bài tập 5: Tính tổng 2 ký số</h1>
+        <p>Nhập số có 2 chữ số: <input id="nhapSo" style="width: 50px;"></p>
+        <button onclick="tinhTongKySo()">Tổng 2 ký số</button> <span id="tongKySo"></span>
+    </div>
+    <br>
+    <br>
+    <br>
+    
+
+    <script src="./js/index.js"></script>
+</body>
+</html>
